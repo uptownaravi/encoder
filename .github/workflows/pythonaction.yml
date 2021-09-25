@@ -20,7 +20,7 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint encoder\encoder\encode.py
+        pylint encoder/encoder/encode.py
         
   deploy:
     runs-on: ubuntu-latest
