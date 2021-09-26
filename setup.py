@@ -9,7 +9,7 @@ def read(file_name):
 
 setup(
     name='encodepacakge',  
-    read("encodepacakge/version")),
+    version=read("encodepacakge/version"),
     author="uptownaravi",
     author_email="uptownaravi@gmail.com",
     description="encode string with given template",
