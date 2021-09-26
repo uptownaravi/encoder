@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='encodepacakge',  
-    version='0.0.5',
+    version='0.0.7',
     author="uptownaravi",
     author_email="uptownaravi@gmail.com",
     description="encode string with given template",
