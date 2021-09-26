@@ -6,7 +6,7 @@ def readlongdesc(file_name):
     with io.open(
         os.path.join(os.path.dirname(__file__), file_name), encoding="utf-8"
     ) as f:
-        return f.read_text()
+        return f.read()
 
 def read(file_name):
     with io.open(
