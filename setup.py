@@ -1,4 +1,6 @@
 from setuptools import setup, find_packages
+import io
+import os
 
 def read(file_name):
     """Read a text file and return the content as a string."""
